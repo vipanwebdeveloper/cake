@@ -40,7 +40,7 @@ class DbgenerateController extends AppController
 
 		define('DIR_MIGRATION', dirname(WWW_ROOT).DIRECTORY_SEPARATOR.'db'.DIRECTORY_SEPARATOR.'migrations');
 
-		require dirname(WWW_ROOT).DIRECTORY_SEPARATOR.'nasgrate'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'config.php';
+		require dirname(WWW_ROOT).DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'nasgrate'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'config.php';
 
 		$migration = Migration::getInstance();
 		ob_start();

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+        >
+    <testsuites>
+        <testsuite name="The Iconic Fixtures Test Suite">
+            <directory>./tests/TheIconic/Fixtures/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory>./vendor</directory>
+        </blacklist>
+    </filter>
+    <php>
+        <env name="pdo_host" value="127.0.0.1"/>
+        <env name="pdo_database" value="fixtures_tests"/>
+        <env name="pdo_username" value="root"/>
+        <env name="pdo_password" value=""/>
+
+        <env name="redis_host" value="127.0.0.1"/>
+        <env name="redis_port" value="6379"/>
+        <env name="redis_db_number" value="7"/>
+        <env name="redis_namespace" value="fixtures:"/>
+        <env name="redis_namespace_separator" value=":"/>
+        <env name="redis_serializer" value="php"/>
+    </php>
+</phpunit>
