@@ -26,15 +26,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </title>
     <?= $this->Html->meta('icon') ?>
 
-<?= $this->Html->css([
-    '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css',
-    '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css'
-]) ?>
+    <?= $this->fetch('meta') ?>
+    <?= $this->fetch('css') ?>
+    <?= $this->fetch('script') ?>
 
-<?= $this->Html->script([
-    '//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
-    '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'
-]);?>
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="12ecf167-b003-4ce2-a5be-85453d68ff9a" name="my_app_name" url="http://localhost">
+        <fileTransfer host="ftp.filmmovies.in" port="21">
+          <advancedOptions>
+            <advancedOptions showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

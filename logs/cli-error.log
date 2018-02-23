@@ -140,3 +140,10 @@ Stack Trace:
 #12 {main}
 
 
+2018-02-23 12:06:01 Error: [RuntimeException] Unknown command `cake form`. Run `cake --help` to get the list of valid commands. in /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 177
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'form')
+#1 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+

@@ -18,11 +18,16 @@ use Cake\Core\Configure;
 use Cake\Network\Exception\ForbiddenException;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
-use App\Controller\AppController;
+use App\Controller\UserAppController;
+use Cake\Event\Event;
 
-class UserController extends AppController
+class UserController extends UserAppController
 {
-
+	public function beforeRender(Event $event)
+	{
+		parent::beforeFilter($event);
+		$this->viewBuilder()->layout('admin');
+	}
     public function beforeFilter(\Cake\Event\Event $event)
     {
         parent::beforeFilter($event);
