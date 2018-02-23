@@ -73,20 +73,22 @@ class DbgenerateController extends AppController
      * @return \Cake\Http\Response|void
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function Fixture($id = null)
+    public function fixture($id = null)
     {
-		require dirname(WWW_ROOT).'\libs\fixtures\src\FixtureManager\FixtureManager.php';
+		require dirname(WWW_ROOT).DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'fixtures'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'FixtureManager'.DIRECTORY_SEPARATOR.'FixtureManager.php';
 		// Declare an array with the path to your fixtures
-		$fixtures = [dirname(WWW_ROOT).'/db/fixtures/country.xml'];
+		$fixtures = [dirname(WWW_ROOT).'/db/fixtures/'.$id.'.xml'];
 
 		// Create a new Fixture Manager passing such array
 		$fixtureManager = FixtureManager::create($fixtures);
 
-		// Persist the fixtures into your test database as follow
-		// Create a Default PDO Persister (currently MySQL is default)
-		// Here you pass host, database name, username and password
-		$fixtureManager->setDefaultPDOPersister('127.0.0.1', 'test_database', 'root', '123abc');
+		$source = ConnectionManager::get('default');
+		define('DATABASE_HOST', $source->config()['host']);
+		define('DATABASE_NAME', $source->config()['database']);
+		define('DATABASE_USER', $source->config()['username']);
+		define('DATABASE_PASSWORD', $source->config()['password']);
 
+		$fixtureManager->setDefaultPDOPersister(DATABASE_HOST, DATABASE_NAME, DATABASE_USER, DATABASE_PASSWORD);
 		// Finally, insert fixtures into database, each table will be cleaned before insertion
 		$fixtureManager->persist();
 

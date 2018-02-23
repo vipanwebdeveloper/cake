@@ -1,0 +1,142 @@
+2018-02-22 11:25:31 Error: [ParseError] syntax error, unexpected ')', expecting ']' in /opt/lampp/htdocs/my_app_name/src/Controller/ExamplesController.php on line 25
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TestTask.php(228): class_exists('App\\Controller\\...')
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(214): Bake\Shell\Task\TestTask->bake('Controller', 'Examples')
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(163): Bake\Shell\Task\ControllerTask->bakeTest('Examples')
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ControllerTask->main('Examples')
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#10 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-02-22 11:26:46 Error: [ParseError] syntax error, unexpected ')', expecting ']' in /opt/lampp/htdocs/my_app_name/src/Controller/ExamplesController.php on line 25
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TestTask.php(228): class_exists('App\\Controller\\...')
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(214): Bake\Shell\Task\TestTask->bake('Controller', 'Examples')
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(163): Bake\Shell\Task\ControllerTask->bakeTest('Examples')
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ControllerTask->main('Examples')
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#10 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-02-22 11:28:31 Error: [ParseError] syntax error, unexpected ')', expecting ']' in /opt/lampp/htdocs/my_app_name/src/Controller/ExamplesController.php on line 25
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TestTask.php(228): class_exists('App\\Controller\\...')
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(214): Bake\Shell\Task\TestTask->bake('Controller', 'Examples')
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(163): Bake\Shell\Task\ControllerTask->bakeTest('Examples')
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ControllerTask->main('Examples')
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#10 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-02-22 11:28:54 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'my_app.examples' doesn't exist in /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'examples', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('examples', Array)
+#2 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('examples')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(288): Cake\ORM\Table->getPrimaryKey()
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(142): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-02-22 11:30:19 Error: [ParseError] syntax error, unexpected ')', expecting ']' in /opt/lampp/htdocs/my_app_name/src/Controller/ExamplesController.php on line 25
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TestTask.php(228): class_exists('App\\Controller\\...')
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(214): Bake\Shell\Task\TestTask->bake('Controller', 'Examples')
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(163): Bake\Shell\Task\ControllerTask->bakeTest('Examples')
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ControllerTask->main('Examples')
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#10 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-02-22 11:30:22 Error: [ParseError] syntax error, unexpected ')', expecting ']' in /opt/lampp/htdocs/my_app_name/src/Controller/ExamplesController.php on line 25
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Exa...', 'App')
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(192): Cake\Core\App::className('Examples', 'Controller', 'Controller')
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(130): Bake\Shell\Task\TemplateTask->controller('Examples', 'Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('Examples')
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#10 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-02-22 11:30:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'my_app.examples' doesn't exist in /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'examples', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('examples', Array)
+#2 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('examples')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(288): Cake\ORM\Table->getPrimaryKey()
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(142): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('Examples')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-02-22 12:00:59 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'my_app.admin/transaction' doesn't exist in /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'admin/transacti...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('admin/transacti...', Array)
+#2 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('admin/transacti...')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(288): Cake\ORM\Table->getPrimaryKey()
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(142): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('Admin/Transacti...')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-02-22 12:58:50 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'my_app.user' doesn't exist in /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'user', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('user', Array)
+#2 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('user')
+#3 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'user', 'User')
+#7 /opt/lampp/htdocs/my_app_name/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('User')
+#8 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('User')
+#9 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /opt/lampp/htdocs/my_app_name/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#11 /opt/lampp/htdocs/my_app_name/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
