@@ -3,6 +3,7 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Process\Console as Migration;
 use Cake\Datasource\ConnectionManager;
+use TheIconic\Fixtures\FixtureManager\FixtureManager;
 
 /**
  * Dbgenerate Controller
@@ -63,6 +64,34 @@ class DbgenerateController extends AppController
         ]);
 
         $this->set('dbgenerate', $dbgenerate);
+    }
+
+    /**
+     * Fixture method
+     *
+     * @param string|null $id Dbgenerate id.
+     * @return \Cake\Http\Response|void
+     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+     */
+    public function Fixture($id = null)
+    {
+		require dirname(WWW_ROOT).'\libs\fixtures\src\FixtureManager\FixtureManager.php';
+		// Declare an array with the path to your fixtures
+		$fixtures = [dirname(WWW_ROOT).'/db/fixtures/country.xml'];
+
+		// Create a new Fixture Manager passing such array
+		$fixtureManager = FixtureManager::create($fixtures);
+
+		// Persist the fixtures into your test database as follow
+		// Create a Default PDO Persister (currently MySQL is default)
+		// Here you pass host, database name, username and password
+		$fixtureManager->setDefaultPDOPersister('127.0.0.1', 'test_database', 'root', '123abc');
+
+		// Finally, insert fixtures into database, each table will be cleaned before insertion
+		$fixtureManager->persist();
+
+		// You may clean your database if needed at any point doing
+		$fixtureManager->cleanStorage();
     }
 
     /**
