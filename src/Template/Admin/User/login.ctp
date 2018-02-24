@@ -13,15 +13,36 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 ?><!-- File: src/Template/Users/login.ctp -->
-
-<div class="users form">
-<?= $this->Flash->render() ?>
 <?= $this->Form->create() ?>
-    <fieldset>
-        <legend><?= __('Please enter your username and password') ?></legend>
-        <?= $this->Form->control('username') ?>
-        <?= $this->Form->control('password') ?>
-    </fieldset>
-<?= $this->Form->button(__('Login')); ?>
+    <div class="msg"><?= __('Sign in to start your session') ?></div>
+    <?= $this->Flash->render() ?>
+    <div class="input-group">
+        <span class="input-group-addon">
+            <i class="material-icons">person</i>
+        </span>
+        <?= $this->Form->control('username', ['label'=>false, 'placeholder'=>"Username"]) ?>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">
+        <i class="material-icons">lock</i>
+        </span>
+        <?= $this->Form->control('password', ['label'=>false, 'type'=>'password']) ?>
+    </div>
+    <div class="row">
+        <div class="col-xs-8 p-t-5">
+            <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
+            <label for="rememberme">Remember Me</label>
+        </div>
+        <div class="col-xs-4">
+            <?= $this->Form->button(__('SIGN IN'), ['class'=>'btn btn-block bg-pink waves-effect']); ?>
+        </div>
+    </div>
+    <div class="row m-t-15 m-b--20">
+        <div class="col-xs-6">
+            <a href="sign-up.html">Register Now!</a>
+        </div>
+        <div class="col-xs-6 align-right">
+            <a href="forgot-password.html">Forgot Password?</a>
+        </div>
+    </div>
 <?= $this->Form->end() ?>
-</div>

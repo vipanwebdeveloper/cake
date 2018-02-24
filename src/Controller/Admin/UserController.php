@@ -20,13 +20,18 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use App\Controller\UserAppController;
 use Cake\Event\Event;
+use App\Form\LoginForm;
 
 class UserController extends UserAppController
 {
 	public function beforeRender(Event $event)
 	{
 		parent::beforeFilter($event);
-		$this->viewBuilder()->layout('admin');
+        if($this->Auth->user('id')){
+            $this->viewBuilder()->layout('admin');
+        } else {
+            $this->viewBuilder()->layout('nomenu');
+        }
 	}
     public function beforeFilter(\Cake\Event\Event $event)
     {
@@ -71,7 +76,9 @@ class UserController extends UserAppController
 				$this->Flash->error(__('Username or password is incorrect'));
 			}
 		}
-	}
+        $loginform = new LoginForm();
+        $this->set(compact('loginform'));
+    }
 	public function logout()
 	{
 		return $this->redirect($this->Auth->logout());

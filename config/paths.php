@@ -28,6 +28,11 @@ if (!defined('DS')) {
 /**
  * The full path to the directory which holds "src", WITHOUT a trailing DS.
  */
+
+define('APP_DESCRIPTION', 'Movies | Latest Hollywood Movies | Latest Bollywood Movies');
+/**
+ * The full path to the directory which holds "src", WITHOUT a trailing DS.
+ */
 define('ROOT', dirname(__DIR__));
 
 /**
@@ -35,6 +40,10 @@ define('ROOT', dirname(__DIR__));
  * named 'src'.
  */
 define('APP_DIR', 'src');
+
+define('ONLY_APP_DIR', trim(str_replace(dirname(ROOT),'',ROOT),DS));
+
+define('WEB_ROOT', 'http://'.$_SERVER['SERVER_NAME'].'/'.ONLY_APP_DIR);
 
 /**
  * Path to the application's directory.

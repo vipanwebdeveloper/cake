@@ -1,0 +1,16 @@
+.DS_Store
+/downloads/*
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+temp/*
+logs/*
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/

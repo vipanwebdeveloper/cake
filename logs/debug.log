@@ -53,3 +53,1214 @@ Cake\Http\Server::run() - CORE/src/Http/Server.php, line 81
 
 
 
+2018-02-24 08:12:41 Notice: Notice (8): Undefined variable: block in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 53]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 53
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:12:41 Notice: Notice (8): Undefined index:  in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 53]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 53
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:13:07 Notice: Notice (8): Undefined index: css in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 53]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 53
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:13:30 Notice: Notice (8): Undefined index: css in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 53]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 53
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:13:44 Notice: Notice (8): Undefined index: css in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 54]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 54
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:14:29 Notice: Notice (8): Undefined index: css in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 55]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 55
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:14:46 Notice: Notice (8): Undefined index: css in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 56]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 56
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:15:44 Notice: Notice (8): Undefined index: css in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 56]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 56
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:25:16 Notice: Notice (8): Array to string conversion in [F:\xampp\htdocs\cake\src\Template\Element\common\headcss.ctp, line 4]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\common\headcss.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1554
+Cake\View\View::element() - CORE\src\View\View.php, line 668
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 54
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:25:17 Notice: Notice (8): Array to string conversion in [F:\xampp\htdocs\cake\src\Template\Element\common\headcss.ctp, line 4]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\common\headcss.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1554
+Cake\View\View::element() - CORE\src\View\View.php, line 668
+App\View\Helper\HeadjsHelper::css() - APP/View\Helper\HeadjsHelper.php, line 54
+include - APP/Template\Layout\admin.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:49:42 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:49:42 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:49:56 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:49:56 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/images/android-logo-white.png
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/images/android-logo.png
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/bootstrap/css/bootstrap.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/node-waves/waves.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/node-waves/waves.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/bootstrap/css/bootstrap.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/images/android-logo.png
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/images/andy.png
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/images/android-logo-white.png
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/images/andy.png
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/animate-css/animate.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:01 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/animate-css/animate.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:07 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/morrisjs/morris.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:07 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/plugins/morrisjs/morris.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:08 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/css/style.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:08 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/css/style.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:09 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/css/themes/all-themes.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\View::loadHelper() - CORE\src\View\View.php, line 1228
+App\View\AppView::initialize() - APP/View\AppView.php, line 39
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 08:50:09 Notice: Notice (8): Use of undefined constant FULL_BASE_URL - assumed 'FULL_BASE_URL' in [F:\xampp\htdocs\cake\src\View\Helper\HeadjsHelper.php, line 30]
+Request URL: /admin/user/css/themes/all-themes.css
+Referer URL: http://localhost/cake/admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\View\Helper\HeadjsHelper::initialize() - APP/View\Helper\HeadjsHelper.php, line 30
+Cake\View\Helper::__construct() - CORE\src\View\Helper.php, line 127
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 96
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 67
+Cake\View\View::__get() - CORE\src\View\View.php, line 1087
+App\View\AppView::initialize() - APP/View\AppView.php, line 40
+Cake\View\View::__construct() - CORE\src\View\View.php, line 363
+Cake\View\ViewBuilder::build() - CORE\src\View\ViewBuilder.php, line 629
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 121
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 622
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 325
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 200
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 118
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 102
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 09:06:30 Notice: Notice (8): Undefined variable: message in [F:\xampp\htdocs\cake\src\Template\Element\common\headjs.ctp, line 7]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\common\headjs.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1554
+Cake\View\View::element() - CORE\src\View\View.php, line 668
+App\View\Helper\HeadjsHelper::script() - APP/View\Helper\HeadjsHelper.php, line 48
+include - APP/Template\Layout\admin.ctp, line 187
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 09:09:06 Notice: Notice (8): Undefined variable: message in [F:\xampp\htdocs\cake\src\Template\Element\common\headjs.ctp, line 7]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\common\headjs.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1554
+Cake\View\View::element() - CORE\src\View\View.php, line 668
+App\View\Helper\HeadjsHelper::script() - APP/View\Helper\HeadjsHelper.php, line 48
+include - APP/Template\Layout\admin.ctp, line 187
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 09:10:53 Notice: Notice (8): Undefined variable: message in [F:\xampp\htdocs\cake\src\Template\Element\common\headjs.ctp, line 7]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\common\headjs.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1554
+Cake\View\View::element() - CORE\src\View\View.php, line 668
+App\View\Helper\HeadjsHelper::script() - APP/View\Helper\HeadjsHelper.php, line 48
+include - APP/Template\Layout\admin.ctp, line 1109
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 09:11:23 Notice: Notice (8): Undefined variable: message in [F:\xampp\htdocs\cake\src\Template\Element\common\headjs.ctp, line 7]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Element\common\headjs.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1554
+Cake\View\View::element() - CORE\src\View\View.php, line 668
+App\View\Helper\HeadjsHelper::script() - APP/View\Helper\HeadjsHelper.php, line 48
+include - APP/Template\Layout\admin.ctp, line 1109
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 812
+Cake\View\View::render() - CORE\src\View\View.php, line 770
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 10:12:35 Notice: Notice (8): Undefined variable: data in [F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Form\Form.php, line 197]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Form\Form::execute() - CORE\src\Form\Form.php, line 197
+include - APP/Template\Admin\User\login.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-02-24 10:12:38 Notice: Notice (8): Undefined variable: data in [F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Form\Form.php, line 201]
+Request URL: /admin/user/login?redirect=%2Fadmin
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Form\Form::execute() - CORE\src\Form\Form.php, line 201
+include - APP/Template\Admin\User\login.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+

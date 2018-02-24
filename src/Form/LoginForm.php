@@ -18,7 +18,9 @@ class LoginForm extends Form
      */
     protected function _buildSchema(Schema $schema)
     {
-        return $schema;
+        return $schema->addField('email', 'string')
+            ->addField('current_password', ['type' => 'string'])
+            ->addField('rememberme', ['type' => 'checkbox']);
     }
 
     /**
@@ -29,7 +31,13 @@ class LoginForm extends Form
      */
     protected function _buildValidator(Validator $validator)
     {
-        return $validator;
+        return $validator->add('current_password', 'length', [
+                'rule' => ['minLength', 1],
+                'message' => 'A password is required'
+            ])->add('email', 'format', [
+                'rule' => 'email',
+                'message' => 'A valid email address is required',
+            ]);
     }
 
     /**
